@@ -8,7 +8,6 @@ const app = express();
 app.use(cors());
 
 app.post("/post", (_req, res) => {
-  console.log("Post recebido");
   res.send("Isto é um post");
 });
 
